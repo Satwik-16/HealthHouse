@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>News&Experts-HealtHouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src=HealtHouse.js></script>
+    <script type="text/javascript">
+      function responsivity()
+       {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav")
+      {
+        x.className += " responsive";
+      }
+      else
+      {
+        x.className = "topnav";
+      }
+      }
+
+    </script>
+  </head>
+  <body>
+    <div class="top-line">
+      <div class="row">
+        <div class="col-lg-12">
+        <a href="Home_page.html"> <img src="HH-logo.png" alt="Company logo" ></a>
+        </div>
+       </div>
+       </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="Home_page.html" class="active">Home</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Medication.html">Medications A-Z</a>
+      <a href="HealthyLifestyle.html">Healthy living</a>
+      <a href="news.html">News & Experts</a>
+      <a href="contact_us.html">Contact Us</a>
+      <a href="#subscription">Subscribe</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsivity()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+<br><h1>News & Experts</h1>
+    <div class="">
+      <h3>To know the reported covid-19 cases of each country <a href="count.html">  click here</a> </h3>
+
+
+      <a href="https://health.economictimes.indiatimes.com/news/pharma/covishield-production-in-full-swing-in-pune-says-adar-poonawalla/82353522">
+        <h3 style="color:black;">1] Covishield production in full swing in Pune, says Adar Poonawalla</h3>
+     </a>
+
+     <a href="https://health.economictimes.indiatimes.com/news/pharma/first-lot-of-1-5-lakh-sputnik-v-doses-lands-in-india/82348338">
+       <h3 style="color:black;">2] First lot of 1.5 lakh Sputnik V doses lands in India</h3>
+    </a>
+
+    <a href="https://health.economictimes.indiatimes.com/news/industry/three-docs-among-11-arrested-for-illegal-sale-of-remdesivir-in-chennai/82340321">
+      <h3 style="color:black;">3] Three docs among 11 arrested for illegal sale of Remdesivir in Chennai</h3>
+   </a>
+
+   <a href="https://www.webmd.com/vaccines/covid-19-vaccine/news/20210430/cdc-says-vaccines-help-keep-elderly-out-of-hospitals">
+     <h3 style="color:black;">4] CDC: Vaccines Help Keep Elderly Out of Hospitals</h3>
+  </a>
+
+  <a href="">
+    <h3 style="color:black;"></h3>
+ </a>
+
+
+ <a href="">
+   <h3 style="color:black;"></h3>
+ </a>
+
+ <a href="">
+   <h3 style="color:black;"></h3>
+</a>
+
+    </div>
+    <div class="fixed-footer">
+      <div id="subscription" >
+        <h1 >Subscribe for our Newsletter</h1>
+        <div class="container_sub">
+        <form action="action_page.php">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email">
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+      </div>
+    </div>
+
+  </body>
+</html>
